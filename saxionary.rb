@@ -28,3 +28,5 @@ end
 parser = Nokogiri::XML::SAX::Parser.new(document)
 
 parser.parse(File.open(options[:wiktionary]))
+
+#ruby saxionary.rb -d vocabulary -w ~/Documents/frw/frwiktionary-20200120-pages-meta-current.xml
